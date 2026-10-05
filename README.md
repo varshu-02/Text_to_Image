@@ -1,25 +1,33 @@
-# Text to Voice
+# 🎨 DreamCanvas – Text-to-Image Generator
 
-## Description
-A simple application that converts written text into spoken audio.
+DreamCanvas is an AI-based Text-to-Image Generator that creates images from natural-language prompts.
 
-## Technologies Used
+## ✨ Features
+
+- Generate images from text prompts
+- Simple and beginner-friendly Streamlit interface
+- Uses Stable Diffusion
+- Runs the AI model locally
+- Displays the generated image directly in the application
+
+## 🛠️ Technologies Used
+
 - Python
 - Streamlit
-- gTTS
+- PyTorch
+- Diffusers
+- Transformers
+- Stable Diffusion
+- Pillow
+- OpenCV
 
-## How to Run
+## 📂 Project Structure
 
-1. Activate the virtual environment:
-   `texttovoice\Scripts\activate`
-
-2. Install the required packages:
-   `python -m pip install -r requirements.txt`
-
-3. Run the application:
-   `python -m streamlit run app.py`
-
-## Features
-- Enter text
-- Convert text into speech
-- Play the generated audio
+```text
+Text_to_Image/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── texttoimg/
